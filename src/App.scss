@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+  h1 {
+    color: red;
+  }
+
+  .fancy {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 76px);
+    background: linear-gradient(teal 0%, 35%, blue 90%), 
+      linear-gradient(to right, teal 0%, 40%, purple 90%),
+      url("https://raw.githubusercontent.com/nmp14ST/Warehouse-management-ST/main/public/images/warehouse.jpeg");
+    background-blend-mode: screen, difference, lighten;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 0;
+    z-index: 1;
+  }
+}
